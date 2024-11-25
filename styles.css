@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+  }
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(254, 250, 245);
+}
+
+header {
+    /* background: rgb(227,227,227);
+    background: linear-gradient(66deg, rgba(227,227,227,1) 0%, rgba(237,237,237,1) 35%, rgba(247,247,247,1) 100%); */
+    background-image: url(images/Abstract\ background\ with\ 3d\ triangles-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 4rem 4rem;
+    h1 {
+        color: #417d08;
+        font-family: "Chango", sans-serif;
+        text-transform: capitalize;
+    }
+}
+
+h1 {font-size: 4em; 
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+h2 {font-size: 2.5em;
+    text-align: center;
+    color: rgb(4, 80, 35);
+}
+h3 {font-size: 1.6em;
+    text-align: center;
+    color: rgb(4, 80, 35);
+}
+
+main {
+    padding: 3rem;
+}
+
+ul {
+    max-width: 40rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    li {
+        padding: 1.5rem 0;
+        border-bottom: 1px solid #14348f;
+    }
+    figure {
+        display: flex;
+    }
+    img {
+        margin-right: 1rem;
+    }
+    figcaption {
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+    p {
+        margin-top: 1rem;
+    }
+}
+
+a {
+    font-size: 2em;
+    color: #3d6616;
+}
+
+.my-link {
+    background: rgb(7,186,79);
+    background: linear-gradient(245deg, rgba(7,186,79,1) 0%, rgba(22,214,99,1) 55%, rgba(82,244,146,1) 86%, rgba(135,244,178,1) 100%);
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    a {
+        color: #fff;
+        font-weight: bold;
+    }
+}
